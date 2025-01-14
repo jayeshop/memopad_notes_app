@@ -1,16 +1,14 @@
-# notes_app
+# Notes App
 
-A new Flutter project.
+A simple Flutter application to manage notes with offline storage using SQLite. This app demonstrates the use of basic CRUD (Create, Read, Update, Delete) operations in a Flutter project.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Add Notes**: Create and store new notes in the app.
+- **Edit Notes**: Update the content of existing notes.
+- **Delete Notes**: Remove unwanted notes.
+- **Offline Storage**: All notes are stored locally using SQLite, ensuring accessibility even without an internet connection.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*Coming soon: Add screenshots of your app here to showcase its features.*
