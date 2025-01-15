@@ -11,4 +11,4 @@ A simple Flutter application to manage notes with offline storage using SQLite. 
 
 ## Screenshots
 
-*Coming soon: Add screenshots of your app here to showcase its features.*
+*Coming soon:*
