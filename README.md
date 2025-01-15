@@ -14,22 +14,17 @@ A simple Flutter application to manage notes with offline storage using SQLite. 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
   <figure style="margin: 10px; text-align: center;">
     <img src="screenshots/homePage.jpg" width="250" alt="Home Page">
-    <figcaption>Home Page</figcaption>
   </figure>
   <figure style="margin: 10px; text-align: center;">
     <img src="screenshots/addNote.jpg" width="250" alt="Add Note">
-    <figcaption>Add Note</figcaption>
   </figure>
   <figure style="margin: 10px; text-align: center;">
     <img src="screenshots/viewNote.jpg" width="250" alt="View Note">
-    <figcaption>View Note</figcaption>
   </figure>
   <figure style="margin: 10px; text-align: center;">
     <img src="screenshots/deleteNote.jpg" width="250" alt="Delete Note">
-    <figcaption>Delete Note</figcaption>
   </figure>
   <figure style="margin: 10px; text-align: center;">
     <img src="screenshots/editNote.jpg" width="250" alt="Edit Note">
-    <figcaption>Edit Note</figcaption>
   </figure>
 </div>
