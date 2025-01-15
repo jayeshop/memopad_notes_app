@@ -14,15 +14,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final DatabaseHelper _databaseHelper = DatabaseHelper();
   List<Note> _notes = [];
-  final List<Color> _noteColors = [
-    Colors.amber,
-    Color(0xFF50C878),
-    Colors.redAccent,
-    Colors.blueAccent,
-    Colors.indigo,
-    Colors.purpleAccent,
-    Colors.pinkAccent
-  ];
 
   @override
   void initState() {

@@ -29,7 +29,6 @@ class _AddEditNoteScreenState extends State<AddEditNoteScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     if (widget.note != null) {
       _titleController.text = widget.note!.title;
@@ -167,11 +166,12 @@ class _AddEditNoteScreenState extends State<AddEditNoteScreen> {
       } else {
         await _databaseHelper.updateNote(note);
       }
-      Navigator.push(
+      Navigator.pushAndRemoveUntil(
         context,
         MaterialPageRoute(
           builder: (context) => HomeScreen(),
         ),
+        (route) => false,
       );
     }
   }
