@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/screens/home_screen.dart';
+import 'package:memopad/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Notes App",
+      title: "MemoPad",
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
         appBarTheme: AppBarTheme(color: Colors.black87),

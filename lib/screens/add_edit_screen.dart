@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/model/notes_model.dart';
-import 'package:notes_app/screens/home_screen.dart';
-import 'package:notes_app/services/database_helper.dart';
+import 'package:memopad/model/notes_model.dart';
+import 'package:memopad/screens/home_screen.dart';
+import 'package:memopad/services/database_helper.dart';
 
 class AddEditNoteScreen extends StatefulWidget {
   final Note? note;

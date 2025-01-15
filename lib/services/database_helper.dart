@@ -1,4 +1,4 @@
-import 'package:notes_app/model/notes_model.dart';
+import 'package:memopad/model/notes_model.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
